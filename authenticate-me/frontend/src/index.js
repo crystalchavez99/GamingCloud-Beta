@@ -33,7 +33,7 @@ function Root() {
   return (
     <Provider store={store}>
       <BrowserRouter>
-      <Root />
+      <App />
       </BrowserRouter>
     </Provider>
   );
@@ -41,7 +41,7 @@ function Root() {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Root />
   </React.StrictMode>,
   document.getElementById('root')
 );
