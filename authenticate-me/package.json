@@ -1,5 +1,5 @@
 {
-  "name": "w15d4-authenticate-me",
+  "name": "authenticate-me",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,15 +12,7 @@
     "sequelize-cli": "npm run --prefix backend sequelize-cli",
     "start": "npm start --prefix backend"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/crystalchavez99/W15D4-Authenticate-Me.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/crystalchavez99/W15D4-Authenticate-Me/issues"
-  },
-  "homepage": "https://github.com/crystalchavez99/W15D4-Authenticate-Me#readme"
+  "license": "ISC"
 }
